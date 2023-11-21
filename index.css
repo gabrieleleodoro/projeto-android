@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+
+
+header {
+    padding: 10px;
+    background-image: linear-gradient(to top, #1A5C38, #39CB79);
+    box-shadow: 0px 4px 9px 4px rgba(0, 0, 0, 0.375);
+}
+header > h1 {
+  
+   font-size: 3em;
+}
+
+
+.topo {
+    color: white;
+    text-align: center;
+    
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+    font-family: 'droid';
+    src: url(fontes/idroid.otf);
+}
+  h1#prin {
+    color: rgb(0, 82, 0);
+    font-family: 'droid', Arial, Helvetica, sans-serif;
+    margin: 0%;
+    padding: 10px;
+
+}
+
+ .aga2 {
+    color: rgb(0, 82, 0);
+    font-family: 'droid', Arial, Helvetica, sans-serif;
+    background-image: linear-gradient( to right,rgb(213, 255, 213), white);
+    padding: 10px;
+    
+ }
+ body{
+    background-color: #84E1AD;
+    margin: 0px;
+ }
+
+ main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: white;
+    box-shadow: 0px 4px 9px 4px rgba(0, 0, 0, 0.375);
+ }
+
+.aprender {
+    background-color: #39CB79;
+    margin: 20px 20px 0px 20px;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+ 
+ article#extra {
+    background-color: #C5EBD6;
+    margin: 0px 20px 20px 20px;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+ }
+ 
+ p {
+    padding: 10px;
+    text-indent: 30px;
+ }
+
+ .link {
+    font: green;
+ }
+
+ div#video {
+   background-color: #1A5C38;
+   padding: 20px;
+   padding-bottom: 59%;
+   position: relative
+ 
+ }
+ div#video > iframe {
+position: absolute;
+top: 5%;
+left: 5%;
+width: 90%;
+height: 90%;
+
+
+ }
+
+ nav {
+   padding: 10px;
+ }
+nav > a {
+   color: white;
+   padding: 10px;
+   text-decoration: none;
+   font-weight: bold;
+   transition-duration: 0.5s;
+}
+nav > a:hover {
+   background-color: #39CB79;
+   color: #1A5C38;
+}
+main strong {
+   color:#096d35;
+   font-weight: bold;
+   padding: 2px 6px;
+}
+main a {
+   text-decoration: none;
+   color: #1A5C38;
+   font-weight: bold;
+   padding: 2px 6px;
+}
+main a:hover {
+   text-decoration: underline;
+   color:#39CB79
+}
+  ul {
+   columns: 2;
+ }
